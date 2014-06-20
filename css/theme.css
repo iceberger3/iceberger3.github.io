@@ -2,6 +2,9 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.aTitle a{
+	color: black;
+}
 .text p{
   margin-bottom: 15px;
   font-size: 18px;
