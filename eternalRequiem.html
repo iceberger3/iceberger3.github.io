@@ -80,7 +80,7 @@
           <p>
             <ul>
              <li><a href = "#synopsis">Synopsis</a></li> 
-             <li><a href = "#characters">Characters</a></li> 
+             <li><a id = "collapseTwo" href = "#characters">Characters</a></li> 
              <li><a href = "#classes">Classes</a></li> 
              <li><a href = "#monsters">Monsters</a></li> 
              <li><a href = "#videos">Videos</a></li> 
@@ -99,47 +99,49 @@
         </div>
       </div>
       <div id = "characters">
-          <div class = "page-header">
-            <h2>Characters</h2>
-          </div>
-        <div class = "row container">
-          <div class = "col-md-2">
-            <img src="assets/kyle.png" class="img-responsive characterImage" alt="Kyle"></img>
-          </div>
-          <div class = "text col-md-10">
-            <h3>Kyle</h3>
-            <p>The stories main character who embarks on a quest to recover his lost memory and remove the dark energy that is corrupting the land.</p>
-          </div>
+        <div class = "page-header aTitle">
+          <h2><a data-toggle="collapse" data-parent="#two" href="#collapseCharacter">Characters</a></h2>
         </div>
-        <div class = "row container">
-          <div class = "col-md-2">
-            <img src="assets/thumb.svg" class="img-responsive characterImage" alt="Astrum"></img>
+        <div id="collapseCharacter" class="panel-collapse collapse">
+          <div class = "row container">
+            <div class = "col-md-2">
+              <img src="assets/kyle.png" class="img-responsive characterImage" alt="Kyle"></img>
+            </div>
+            <div class = "text col-md-10">
+              <h3>Kyle</h3>
+              <p>The stories main character who embarks on a quest to recover his lost memory and remove the dark energy that is corrupting the land.</p>
+            </div>
           </div>
-          <div class = "text col-md-10">
-            <h3>Astrum</h3>
-            <p>A mysterious spirit that guides the heroes through their journey. In his wisdom he has warned Kyle and his companions against the power of the dark energy and has tasked them with collecting the shards of eternity.</p>
+          <div class = "row container">
+            <div class = "col-md-2">
+              <img src="assets/thumb.svg" class="img-responsive characterImage" alt="Astrum"></img>
+            </div>
+            <div class = "text col-md-10">
+              <h3>Astrum</h3>
+              <p>A mysterious spirit that guides the heroes through their journey. In his wisdom he has warned Kyle and his companions against the power of the dark energy and has tasked them with collecting the shards of eternity.</p>
+            </div>
           </div>
-        </div>
-        <div class = "row container">
-          <div class = "col-md-2">
-            <img src="assets/thumb.svg" class="img-responsive characterImage" alt="Garrett"></img>
+          <div class = "row container">
+            <div class = "col-md-2">
+              <img src="assets/thumb.svg" class="img-responsive characterImage" alt="Garrett"></img>
+            </div>
+            <div class = "text col-md-10">
+              <h3>Garrett</h3>
+              <p>Captain of the Luman Guard, Garrett is a strong soldier with a comical heart. His mission is to protect his people from any threat that comes across his path.</p>
+            </div>
+          </div>  
+          <div class = "row container">
+            <div class = "col-md-2">
+              <img src="assets/thumb.svg" class="img-responsive characterImage" alt="Mike"></img>
+            </div>
+            <div class = "text col-md-10">
+              <h3>Michael</h3>
+              <p>As an acolyte, Michael's highest priority is purging the land of dark energy. His research and unique skills in combat are an incredible contribution to the team.</p>
+            </div>
+          </div> 
+          <div class = "backToTop">
+            <p><a href = "#">back to top</a></p>
           </div>
-          <div class = "text col-md-10">
-            <h3>Garrett</h3>
-            <p>Captain of the Luman Guard, Garrett is a strong soldier with a comical heart. His mission is to protect his people from any threat that comes across his path.</p>
-          </div>
-        </div>  
-        <div class = "row container">
-          <div class = "col-md-2">
-            <img src="assets/thumb.svg" class="img-responsive characterImage" alt="Mike"></img>
-          </div>
-          <div class = "text col-md-10">
-            <h3>Michael</h3>
-            <p>As an acolyte, Michael's highest priority is purging the land of dark energy. His research and unique skills in combat are an incredible contribution to the team.</p>
-          </div>
-        </div> 
-        <div class = "backToTop">
-          <p><a href = "#">back to top</a></p>
         </div>
       </div>
       <div id = "classes">
@@ -397,64 +399,64 @@
                   <td>4</td>
                   <td>3</td>
                   <td><strong>14</strong></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div class = "row container">
-            <div class = "col-md-2">
-              <img src="assets/thumb.svg" class="img-responsive characterImage" alt="Wulf"></img>
-            </div>
-            <div class = "text col-md-10">
-              <h3>Wulf</h3>
-              <p>Once simple animals, these creatures have been driven crazy by dark energy. Alike to their aggressiveness, their power knows no bounds.</p>
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th>Hp</th>
-                    <th>Power</th>
-                    <th>Defense</th>
-                    <th>Resistance</th>
-                    <th><strong>Total</strong></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td><strong>14</strong></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div class = "backToTop">
-            <p><a href = "#">back to top</a></p>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-        <div id = "videos">
-          <div class = "page-header">
-            <h2>Videos</h2>        
-          </div> 
-          <div>
-            <iframe  class="video img-responsive bottom-shadow"src="https://www.youtube-nocookie.com/embed/KUM_Y2mN9B4" frameborder="0" allowfullscreen=""></iframe>
+        <div class = "row container">
+          <div class = "col-md-2">
+            <img src="assets/thumb.svg" class="img-responsive characterImage" alt="Wulf"></img>
           </div>
-          <div class = "backToTop">
-            <p><a href = "#">back to top</a></p>
+          <div class = "text col-md-10">
+            <h3>Wulf</h3>
+            <p>Once simple animals, these creatures have been driven crazy by dark energy. Alike to their aggressiveness, their power knows no bounds.</p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Hp</th>
+                  <th>Power</th>
+                  <th>Defense</th>
+                  <th>Resistance</th>
+                  <th><strong>Total</strong></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>3</td>
+                  <td>2</td>
+                  <td><strong>14</strong></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
+        </div>
+        <div class = "backToTop">
+          <p><a href = "#">back to top</a></p>
         </div>
       </div>
-    </div> <!-- /container -->
+      <div id = "videos">
+        <div class = "page-header">
+          <h2>Videos</h2>        
+        </div> 
+        <div>
+          <iframe  class="video img-responsive bottom-shadow"src="https://www.youtube-nocookie.com/embed/KUM_Y2mN9B4" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+        <div class = "backToTop">
+          <p><a href = "#">back to top</a></p>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="js/collapse.js"></script>
   </body>
   </html>
