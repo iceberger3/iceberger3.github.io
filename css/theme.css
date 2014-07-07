@@ -11,7 +11,6 @@
   font-weight: 200;
 }
 .video{
-	padding: 15px;
 	height:200px;
 	width: 300px;
 }
@@ -31,4 +30,20 @@
 #inline{
 	display:inline;
 	font-size:24px;
+}
+.bottom-shadow, .bottom-shadow-med {
+	background-color: #fff;
+}
+
+.bottom-shadow {
+	-webkit-box-shadow: 0 8px 8px -4px #333333;
+	   -moz-box-shadow: 0 8px 8px -4px #333333;
+	        box-shadow: 0 8px 8px -4px #333333;
+
+}
+
+.bottom-shadow-med {
+	-webkit-box-shadow: 0 8px 8px -2px #333333;
+	   -moz-box-shadow: 0 8px 8px -2px #333333;
+	        box-shadow: 0 8px 8px -2px #333333;
 }
