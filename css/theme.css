@@ -17,3 +17,12 @@
 	width: 250px;
 	height: 200px;
 }
+.characterImage{
+	width: 125px;
+	height: 145px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.backToTop{
+	font-size:14px;
+}
