@@ -1,5 +1,32 @@
 $(document).ready(function(){
+	$("#collapseOne").click(function(){
+		$("#collapseSynopsis").collapse('show');
+	});
 	$("#collapseTwo").click(function(){
 		$("#collapseCharacter").collapse('show');
+	});
+	$("#collapseThree").click(function(){
+		$("#collapseClass").collapse('show');
+	});
+	$("#collapseFour").click(function(){
+		$("#collapseMonster").collapse('show');
+	});
+	$("#collapseFive").click(function(){
+		$("#collapseVideo").collapse('show');
+	});
+	$("#hideOne").click(function(){
+		$("#collapseSynopsis").collapse('hide');
+	});
+	$("#hideTwo").click(function(){
+		$("#collapseCharacter").collapse('hide');
+	});
+	$("#hideThree").click(function(){
+		$("#collapseClass").collapse('hide');
+	});
+	$("#hideFour").click(function(){
+		$("#collapseMonster").collapse('hide');
+	});
+	$("#hideFive").click(function(){
+		$("#collapseVideo").collapse('hide');
 	});
 });
