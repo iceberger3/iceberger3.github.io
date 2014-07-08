@@ -10,6 +10,9 @@
   font-size: 18px;
   font-weight: 200;
 }
+.textRight {
+	text-align: right;
+}
 .video{
 	height:200px;
 	width: 300px;
