@@ -15,8 +15,9 @@
 	width: 300px;
 }
 .titleImage{
-	width: 250px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
+	float:right;
 }
 .characterImage{
 	width: 125px;
