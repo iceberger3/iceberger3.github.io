@@ -12,8 +12,7 @@
 
 <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/bootstrap-theme.min.css" rel="stylesheet">
-
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 <!-- Custom styles for this template -->
 <link href="css/theme.css" rel="stylesheet">
 
@@ -38,7 +37,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Kyle Berger</a>
+          <a class="navbar-brand noPacity" href="index.html">Kyle Berger</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -111,7 +110,8 @@
           </div>
           <div class = "text col-md-10">
             <h3 class = "aTitle"><a href = "characters/kyle.html">Kyle</a></h3>
-            <p>The stories main character who embarks on a quest to recover his lost memory and remove the dark energy that is corrupting the land.</p>
+            <div id = "kyle">
+            </div>
           </div>
         </div>
         <div class = "row container">
@@ -120,7 +120,8 @@
           </div>
           <div class = "text col-md-10">
             <h3 class = "aTitle"><a href = "characters/astrum.html">Astrum</a></h3>
-            <p>A mysterious spirit that guides the heroes through their journey. In his wisdom he has warned Kyle and his companions against the power of the dark energy and has tasked them with collecting the shards of eternity.</p>
+            <div id = "astrum">
+            </div>
           </div>
         </div>
         <div class = "row container">
@@ -129,7 +130,8 @@
           </div>
           <div class = "text col-md-10">
             <h3 class = "aTitle"><a href = "characters/garrett.html">Garrett</a></h3>
-            <p>Captain of the Luman Guard, Garrett is a strong soldier with a comical heart. His mission is to protect his people from any threat that comes across his path.</p>
+            <div id = "garrett">
+            </div>
           </div>
         </div>  
         <div class = "row container">
@@ -138,7 +140,8 @@
           </div>
           <div class = "text col-md-10">
             <h3 class = "aTitle"><a href = "characters/michael.html">Michael</a></h3>
-            <p>As an acolyte, Michael's highest priority is purging the land of dark energy. His research and unique skills in combat are an incredible contribution to the team.</p>
+            <div id = "michael">
+            </div>
           </div>
         </div> 
         <div class = "backToTop">
@@ -466,5 +469,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   <script src="js/collapse.js"></script>
+
+  <script>
+    $(document).ready(function(){
+    $(".insideHeader").load("../html/insideHeader.html");
+    $("#kyle").load("characters/kyle.html #kyle");
+    $("#astrum").load("characters/astrum.html #astrum");
+    $("#michael").load("characters/michael.html #michael");
+    $("#garrett").load("characters/garrett.html #garrett");
+    });
+  </script>
 </body>
 </html>
