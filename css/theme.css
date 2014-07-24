@@ -42,6 +42,7 @@ body{
 .backToTop{
 	font-size:14px;
 }
+
 #inline{
 	display:inline;
 	font-size:24px;
@@ -163,4 +164,64 @@ body > .site-wrapper {
 	   -moz-box-shadow: 0 0px 8px;
 	        box-shadow: 0 0px 8px;
 	box-shadow: 0 0 14px rgba(0,0,0,0.3);
+}
+@media only screen 
+and (min-width: 400px) 
+and (max-width: 775px){ 
+
+	.site-wrapper {
+		overflow-x:hidden;
+	}
+
+	.container {
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 170px;
+		text-align: center;
+	}
+
+	body {
+		font-size: 16px;
+	} 
+
+	.navbar .container {
+		padding: 5px 30px 5px;
+	}
+
+	h1.bold {
+		font-size: 35px;
+	}
+
+	.article {
+		padding-top: 50px;
+	}
+
+	.article-img-holder {
+		margin-top: 20px;
+		width: 200px;
+	}
+
+	.article img {
+		margin-right: 0px;
+	}
+
+	.article-content {
+		text-align: left;
+	}
+
+	.banner img {
+		width: auto;
+	 	height: 500px;
+	}
+
+	.banner div.content { 
+		color: white;
+		position: absolute; 
+		top: 100px; 
+		text-align: center; 
+		display: block;
+		margin: 0px auto;
+	}
 }
