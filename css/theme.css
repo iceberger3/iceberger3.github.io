@@ -179,7 +179,7 @@ and (max-width: 775px){
 		padding-left: 15px;
 		padding-right: 15px;
 		padding-bottom: 170px;
-		text-align: center;
+		text-align: left;
 	}
 
 	body {
@@ -206,7 +206,9 @@ and (max-width: 775px){
 	.article img {
 		margin-right: 0px;
 	}
-
+	.lefty li{
+		text-align: left;
+	}
 	.article-content {
 		text-align: left;
 	}
@@ -219,7 +221,7 @@ and (max-width: 775px){
 	.banner div.content { 
 		color: white;
 		position: absolute; 
-		top: 100px; 
+		top: 125px; 
 		text-align: center; 
 		display: block;
 		margin: 0px auto;
