@@ -166,7 +166,7 @@ body > .site-wrapper {
 	box-shadow: 0 0 14px rgba(0,0,0,0.3);
 }
 @media only screen 
-and (min-width: 400px) 
+and (min-width: 200px) 
 and (max-width: 775px){ 
 
 	.site-wrapper {
