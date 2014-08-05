@@ -6,6 +6,9 @@ body{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 }
+.fade{
+	opacity: .3;
+}
 .navbar-inverse{
 	background-color: transparent;
 	border-color: transparent;
@@ -13,10 +16,30 @@ body{
 .aTitle a{
 	color: black;
 }
+.platform > .row {
+margin-right: 15px;
+margin-left: -15px;
+}
+.summary{
+	text-align: center;
+	padding-top: 60px; 
+}
+.platform{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 100px; 
+}
+.platform img{
+	margin-right: auto;
+	margin-left: auto;
+}
 .text p{
 	margin-bottom: 15px;
 	font-size: 18px;
 	font-weight: 200;
+}
+.text-padding{
+	padding-bottom: 120px;
 }
 .textRight {
 	text-align: right;
@@ -136,7 +159,7 @@ body{
 .banner div.content { 
 	color: white;
 	position: absolute; 
-	top: 300px; 
+	top: 180px; 
 	width: 100%;
 	text-align: center; 
 	display: block;
@@ -185,7 +208,8 @@ body > .site-wrapper {
 		margin: 0px auto;
 	}
 	.leftBorder{
-		border-left: 3px solid black;
+		border-left: 2px solid white;
+		border-top: 0px solid white;
 	}
 	.footer-img-container > a  > img {
 
@@ -203,7 +227,14 @@ body > .site-wrapper {
 		opacity: 1;
 		filter: alpha(opacity=0);
 	}
-
+	.footer h1{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.footer p{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 	.footer > a, .footer > a:hover {
 		color: white;
 		font-size: 14px;
@@ -222,7 +253,7 @@ body > .site-wrapper {
 
 	@media only screen 
 	and (min-width: 200px) 
-	and (max-width: 775px){ 
+	and (max-width: 991px){ 
 
 		.site-wrapper {
 			overflow-x:hidden;
@@ -241,6 +272,23 @@ body > .site-wrapper {
 			font-size: 16px;
 		} 
 
+.platform > .row {
+margin-right: -15px;
+margin-left: -15px;
+}
+
+.summary{
+	text-align: center;
+}
+.platform{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 60px; 
+}
+.platform img{
+	margin-right: auto;
+	margin-left: auto;
+}
 		.navbar .container {
 			padding: 5px 30px 5px;
 		}
@@ -263,7 +311,8 @@ body > .site-wrapper {
 		}
 
 		.leftBorder{
-			border-left: 0px solid black;
+			border-left: 0px solid white;
+			border-top: 2px solid white;
 		}
 		.lefty li{
 			text-align: left;
@@ -274,9 +323,12 @@ body > .site-wrapper {
 
 		.banner img {
 			width: auto;
-			height: 500px;
+			height: 625px;
 		}
 
+.text-padding{
+	padding-bottom: 60px;
+}
 		.banner div.content { 
 			color: white;
 			position: absolute; 
