@@ -17,9 +17,24 @@ body{
 	color: black;
 }
 .platform > .row {
-margin-right: 15px;
-margin-left: -15px;
+	margin-right: 15px;
+	margin-left: -15px;
 }
+#myCarousel{
+	margin-right: auto;
+	margin-left: auto;
+	top:50px;
+	text-align: center;
+	width:500px;
+	height:auto;
+}
+.carousel-control.right {
+	background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+}
+.carousel-control.left {
+	background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+}
+
 .summary{
 	text-align: center;
 	padding-top: 60px; 
@@ -28,72 +43,77 @@ margin-left: -15px;
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 100px; 
-}.applicationImage {
-	padding-top: 20px;
-	padding-bottom:20px;
-}
-.platform img{
-	margin-right: auto;
-	margin-left: auto;
-}
-.text p{
-	margin-bottom: 15px;
-	font-size: 18px;
-	font-weight: 200;
-}
-.text-padding{
-	padding-bottom: 120px;
-}
-.textRight {
-	text-align: right;
-}
-.video{
-	height:200px;
-	width: 300px;
-}
-.titleImage{
-	width: 150px;
-	height: 150px;
-	float:right;
-}
-.noPacity{
-	opacity: 1;
-}
-.characterImage{
-	width: 125px;
-	height: 145px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-.backToTop{
-	font-size:14px;
-	padding-bottom: 20px;
-	padding-top: 20px;
-}
+	}
+	.small{
+		height:64px;
+		width:64px;
+	}
+	.applicationImage {
+		padding-top: 20px;
+		padding-bottom:20px;
+	}
+	.platform img{
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.text p{
+		margin-bottom: 15px;
+		font-size: 18px;
+		font-weight: 200;
+	}
+	.text-padding{
+		padding-bottom: 120px;
+	}
+	.textRight {
+		text-align: right;
+	}
+	.video{
+		height:200px;
+		width: 300px;
+	}
+	.titleImage{
+		width: 150px;
+		height: 150px;
+		float:right;
+	}
+	.noPacity{
+		opacity: 1;
+	}
+	.characterImage{
+		width: 125px;
+		height: 145px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.backToTop{
+		font-size:14px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
 
-#inline{
-	display:inline;
-	font-size:24px;
-}
-.bottom-shadow, .bottom-shadow-med {
-	background-color: #fff;
-}
-.tint { 
-	background: linear-gradient(#1c1c1c, #2b2b2b, #424242);
-	display: inline-block; 
-}
-.tint img { 
-	opacity: 0.6;
-}
-.navbar .container {
-	max-width: 1440px;
-	margin: 0 auto;
-}
-.navbar-inverse {
-	width: 100%;
-	max-width: 1440px;
-	margin: 0 auto;
-}
+	#inline{
+		display:inline;
+		font-size:24px;
+	}
+	.bottom-shadow, .bottom-shadow-med {
+		background-color: #fff;
+	}
+	.tint { 
+		background: linear-gradient(#1c1c1c, #2b2b2b, #424242);
+		display: inline-block; 
+	}
+	.tint img { 
+		opacity: 0.6;
+	}
+	.navbar .container {
+		max-width: 1440px;
+		margin: 0 auto;
+	}
+	.navbar-inverse {
+		width: 100%;
+		max-width: 1440px;
+		margin: 0 auto;
+	}
 /*custon buttons
 -----------------------------------------*/
 .btn-sm, .btn-md, .btn-lg {
@@ -126,7 +146,12 @@ margin-left: -15px;
 	border-color: #CCCCCC;
 	color: #CCCCCC;
 }
-
+.carousel-caption .btn-lg:hover{
+	border-color: #000;
+	color: #000;
+	background-color: #E0E0E0;
+	border-width: 2px;
+}
 .banner a.btn-lg:hover {
 	color: #fff;
 	border-color: #fff;
@@ -275,23 +300,23 @@ body > .site-wrapper {
 			font-size: 16px;
 		} 
 
-.platform > .row {
-margin-right: -15px;
-margin-left: -15px;
-}
+		.platform > .row {
+			margin-right: -15px;
+			margin-left: -15px;
+		}
 
-.summary{
-	text-align: center;
-}
-.platform{
-	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 60px; 
-}
-.platform img{
-	margin-right: auto;
-	margin-left: auto;
-}
+		.summary{
+			text-align: center;
+		}
+		.platform{
+			text-align: center;
+			padding-top: 40px;
+			padding-bottom: 60px; 
+		}
+		.platform img{
+			margin-right: auto;
+			margin-left: auto;
+		}
 		.navbar .container {
 			padding: 5px 30px 5px;
 		}
@@ -331,20 +356,28 @@ margin-left: -15px;
 			margin: auto;
 			height: 625px;
 		}
-	.footer-img-container > a  > img {
+		.footer-img-container > a  > img {
 
-		margin-left: auto;
-		margin-right: auto;
-		padding-left: 10px;
-		padding-right: 10px;
-		padding-bottom: 30px;
-		padding-top: 30px;
-		opacity: 0.5;
-		filter: alpha(opacity=50);
-	}
-.text-padding{
-	padding-bottom: 60px;
-}
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-bottom: 30px;
+			padding-top: 30px;
+			opacity: 0.5;
+			filter: alpha(opacity=50);
+		}
+		#myCarousel{
+			margin-right: auto;
+			margin-left: auto;
+			top:50px;
+			text-align: center;
+			width:350px;
+			height:auto;
+		}
+		.text-padding{
+			padding-bottom: 60px;
+		}
 		.banner div.content { 
 			color: white;
 			position: absolute; 
