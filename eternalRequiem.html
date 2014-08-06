@@ -28,35 +28,7 @@
   <body role="document">
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand noPacity" href="index.html">Kyle Berger</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li ><a href="projects.html">Projects</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="https://github.com/iceberger3">Github</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Social Media</li>
-                <li><a href="https://twitter.com/IceBERGer3">Twitter</a></li>
-                <li><a href="https://linkedin.com/in/kberger1">LinkedIn</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+    <div id = "nav">
     </div>
 
     <div class="container" role="main">
@@ -483,7 +455,7 @@
 
   <script>
   $(document).ready(function(){
-    $(".insideHeader").load("../html/insideHeader.html");
+    $("#nav").load("index.html #nav");
     $("#kyle").load("characters/kyle.html #kyle");
     $("#astrum").load("characters/astrum.html #astrum");
     $("#garrett").load("characters/garrett.html #garrett");

@@ -29,63 +29,33 @@
       <div class="site-wrapper">
         <!-- Fixed navbar -->
         <div id = "nav">
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.html">Home</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li class = "lefty"><a href="about.html">About</a></li>
-                <li class = "lefty"><a href="web.html">Web</a></li>
-                <li class = "lefty"><a href="android.html">Android</a></li>
-                <li class="dropdown lefty">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="https://github.com/iceberger3">Github</a></li>
-                    <li><a href="https://www.youtube.com/channel/UCWRqERF6i7yn59iqOSYVXLg">Youtube</a></li>
-                    <li><a href="https://twitter.com/IceBERGer3">Twitter</a></li>
-                    <li><a href="https://linkedin.com/in/kberger1">LinkedIn</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div>
         </div>
-      </div>
         <div class="banner">
-          <span class="tint"><center><img src="assets/earth.jpeg"></img></center></span>
+          <span class="tint android"><center><img src="assets/web.jpg"></img></center></span>
           <div class = "content text">
-            <h1 class="bold aTitle">Kyle Berger</h1>
-            <p class = "text-padding">A developer with a passion for problem solving, game development, and mobile applications.</p>
-            <p><a class="btn btn-default btn-lg" role="button" href="about.html">Learn About Me <span class = "glyphicon glyphicon-chevron-right"></a><p>
+            <h1 class="bold aTitle">Web Development</h1>
+            <p class = "text-padding">Simple Modern Effective</p>
+            <p><a class="btn btn-default btn-lg" role="button" href="#projects">Projects<span class = "glyphicon glyphicon-chevron-right"></a><p>
             </div>
           </div>
           <div class="container" role="main">
             <!-- Main jumbotron for a primary marketing message or call to action -->
-            <div class="aTitle summary text">
-              <h1>Portfolio</h1>
-              <p style = "padding-top:20px">Solutions for every platform</p>
+            <div id = "projects" class="aTitle summary text">
+              <h1>Projects</h1>
+              <p style = "padding-top:20px">Contributions that last a lifetime</p>
             </div>
             <div class = "container platform text">
               <div class = "row">
                 <div class = "col-md-4">
-                  <a href="web.html"><img align = "middle" src="assets/dropbox.png" alt="Web Design" title="Web Design" /></a>
-                  <p>Web</p>
                 </div>
                 <div class = "col-md-4">
-                  <a href="android.html"><img align = "middle" src="assets/android.png" alt="Android" title="Android" /></a>
-                  <p>Android</p>
+                  <h2>iMagine</h2>
+                  <div class = "applicationImage">
+                   <a href="https://github.com/souleiman/seesaw"><img align = "middle" src="assets/lightbulb.png" alt="Android" title="Android" /></a>
+                  </div>
+                  <p>A hot or not app designedfor a company appathon, iMagine effectively captures and bubbles up user ideas to upper management</p>
                 </div>
                 <div class = "col-md-4 fade">
-                  <a><img align = "middle" src="assets/apple.png" alt="iOS" title="iOS" /></a>
-                  <P>iOS</p>
                 </div>
               </div>
             </div>
@@ -122,5 +92,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <script src="js/scrolling.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("#foot").load("index.html #foot");
+    $("#nav").load("index.html #nav");
+  });
+  </script>
   </body>
   </html>

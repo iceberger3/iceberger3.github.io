@@ -28,6 +28,9 @@ margin-left: -15px;
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 100px; 
+}.applicationImage {
+	padding-top: 20px;
+	padding-bottom:20px;
 }
 .platform img{
 	margin-right: auto;
@@ -322,7 +325,10 @@ margin-left: -15px;
 		}
 
 		.banner img {
+			top:50%;
+			position: relative;
 			width: auto;
+			margin: auto;
 			height: 625px;
 		}
 	.footer-img-container > a  > img {
