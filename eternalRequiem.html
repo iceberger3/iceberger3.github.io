@@ -50,19 +50,19 @@
         <h2>Table of Contents</h2>
         <p>
           <ul>
-           <li><a id = "collapseOne" href = "#synopsis">Synopsis</a></li> 
-           <li><a id = "collapseTwo" href = "#characters">Characters</a></li> 
-           <li><a id = "collapseThree" href = "#classes">Classes</a></li> 
-           <li><a id = "collapseFour" href = "#monsters">Monsters</a></li> 
-           <li><a id = "collapseFive" href = "#videos">Videos</a></li> 
+           <li><a id = "collapseOne" class = "scrollToElement" href = "synopsis">Synopsis</a></li> 
+           <li><a id = "collapseTwo" class = "scrollToElement" href = "#characters">Characters</a></li> 
+           <li><a id = "collapseThree" class = "scrollToElement" href = "#classes">Classes</a></li> 
+           <li><a id = "collapseFour" class = "scrollToElement" href = "#monsters">Monsters</a></li> 
+           <li><a id = "collapseFive" class = "scrollToElement" href = "#videos">Videos</a></li> 
          </ul> 
        </p>
      </div>
-     <div class = "page-header aTitle">
+     <div id = "synopsis" class = "page-header aTitle">
       <h2><a data-toggle="collapse" data-parent="#one" href="#collapseSynopsis">Synopsis</a></h2>
     </div>
     <div id="collapseSynopsis" class="panel-collapse collapse">
-     <div id = "synopsis">
+     <div>
       <div class = "text">
         <p>The perfect classic RPG. Eternal Requiem is designed to use every pixel effectively. Its classic gameplay and feel is designed to bring back the best of your childhood while incorporating innovative new mechanics. Designed for all ages ER is guarenteed not to dissapoint.</p>
       </div>
@@ -131,11 +131,11 @@
       </div>
     </div>
   </div>
-  <div class = "page-header aTitle">
+  <div id = "classes" class = "page-header aTitle">
     <h2><a data-toggle="collapse" data-parent="#three" href="#collapseClass">Classes</a></h2>
   </div>
   <div id="collapseClass" class="panel-collapse collapse">
-    <div id = "classes">
+    <div>
       <div class = "text">
         <h3 id="inline">Soldier</h3><p id="inline"> (Kyle)</p>  
         <p>The mightiest of all heroes begin their journey as soldiers. Specializing in attack power and defense, soldiers can deal massive damage and taken more melee hits than the average hero.</p>
@@ -215,11 +215,11 @@
       </div>
     </div>
   </div>
-  <div class = "page-header aTitle">
+  <div id = "monsters" class = "page-header aTitle">
     <h2><a data-toggle="collapse" data-parent="#four" href="#collapseMonster">Monsters</a></h2>
   </div>
   <div id="collapseMonster" class="panel-collapse collapse">
-    <div id = "monsters">
+    <div>
       <div class = "row container">
         <div class = "col-md-2">
           <img src="assets/thumb.svg" class="img-responsive characterImage" alt="Snake"></img>
@@ -428,11 +428,11 @@
       </div>
     </div>
   </div>
-  <div class = "page-header aTitle">
+  <div id = "videos" class = "page-header aTitle">
     <h2><a data-toggle="collapse" data-parent="#five" href="#collapseVideo">Videos</a></h2>
   </div>
   <div id="collapseVideo" class="panel-collapse collapse">
-    <div id = "videos">
+    <div>
       <div>
         <iframe  class="video img-responsive bottom-shadow"src="https://www.youtube-nocookie.com/embed/KUM_Y2mN9B4" frameborder="0" allowfullscreen=""></iframe>
       </div>
@@ -452,6 +452,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   <script src="js/collapse.js"></script>
+    <script src="js/scroll-to.js"></script>
 
   <script>
   $(document).ready(function(){
