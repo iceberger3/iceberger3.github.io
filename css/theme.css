@@ -3,7 +3,7 @@
 	padding-bottom: 15px;
 }
 body{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-weight: 300;
 }
 .fade{
@@ -156,6 +156,37 @@ body{
 .banner a.btn-lg:hover {
 	color: #fff;
 	border-color: #fff;
+}
+/* custom
+-------------------------------------*/
+.circle{
+	display: inline-block;
+	border-radius: 50%;
+	width: 135px;
+	height: 135px;
+	color: #333;
+	background-color: #ccc;
+	padding-top: 26px;
+	font-size: 54px;
+	margin-bottom: 20px;
+}
+.circle.android:hover{
+	background-color: #57c788;
+	color: #2e8b57;
+	transition-duration: .5s;
+}
+.circle.apple:hover{
+	background-color: #70a0c7;
+	color: #386790;
+	transition-duration: .5s;
+}
+.circle.web:hover{
+	background-color: #de8087;
+	color: #B32E37;
+	transition-duration: .5s;
+}
+.circleLabel{
+	margin-bottom: 20px;
 }
 
 /* banner 
